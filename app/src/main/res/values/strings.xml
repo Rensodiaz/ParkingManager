@@ -1,0 +1,189 @@
+<resources>
+    <!--Application general strings-->
+    <string name="app_name">*Heights Parking*</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search_plate">Search by plate</string>
+    <string name="action_search_printer">Search printer</string>
+    <string name="barcode">Barcode</string>
+    <string name="pay">Pay</string>
+    <string name="paid">Paid</string>
+    <string name="lost_ticket_message">If you damage or lose this ticket a $20 dollars fee will be charge. No exceptions!</string>
+    <string name="search">Search</string>
+    <string name="pay_dialog_title">Pay Ticket</string>
+    <string name="search_dialog_title">Search plate</string>
+    <string name="search_dialog_empty">Please enter plate!</string>
+    <string name="pay_confirmation">Are you sure?</string>
+    <string name="cancel">Cancel</string>
+    <string name="total">Total</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="scan_History">Scan Ticket for History.</string>
+    <string name="history">Tickets History</string>
+    <string name="receipt">Receipt</string>
+    <string name="no_car_message">Car is not in the Park lot!</string>
+    <string name="car_in_already_message">Car already in the Park lot!</string>
+    <string name="permission_message">Camera and BT permissions are required for the app to work properly.</string>
+    <string name="device_os_too_low">Device OS too low, please try updating your device.</string>
+    <string name="bt_printer_service_message">Application need printer to continue.</string>
+    <string name="bt_activity_title">Printer lookup</string>
+    <string name="bt_search_title">Searching bt devices...</string>
+    <string name="bt_search_button">Search</string>
+    <string name="bt_search_new_device">Select device</string>
+    <string name="bt_printer_connected">Connected To Printer!</string>
+    <string name="bt_no_device_message">No device available.</string>
+    <string name="bt_no_device_found_message">No device found.</string>
+    <string name="bt_no_printer_message">Please check the printer</string>
+    <string name="bt_printer_dialog_message">Printer is not connected, want to connect</string>
+
+    <string name="feature_not_ready">This feature is not available just yet.</string>
+
+
+    <!-- This is for the addCar activity -->
+    <string name="addCar_date_in">Date</string>
+    <string name="addCar_Plate">Plate</string>
+    <string name="addCar_Color">Color</string>
+    <string name="addCar_Make">Make</string>
+    <string name="addCar_cancel">Cancel</string>
+    <string name="addCar_add">Add</string>
+    <string name="addCar_create">Create</string>
+    <string name="addCar_creating_ticket">Creating ticket...</string>
+    <string name="addCar_spinner_color">Choose a color</string>
+    <string name="addCar_spinner_make">Choose a make</string>
+    <string name="no_empty_plate">Please add plate.</string>
+
+    <!-- Colors of cars-->
+    <string-array name="color_array">
+        <item>White</item>
+        <item>Black</item>
+        <item>Green</item>
+        <item>Gray</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Brown</item>
+        <item>Blue</item>
+        <item>Pink</item>
+        <item>Purple</item>
+    </string-array>
+
+    <!-- Cars make-->
+    <string-array name="make_array">
+        <item>Acura</item>
+        <item>Alfa Romeo</item>
+        <item>Aston Martin</item>
+        <item>Audi</item>
+        <item>Bentley</item>
+        <item>BMW</item>
+        <item>Bugatti</item>
+        <item>Buick</item>
+        <item>Cadillac</item>
+        <item>Chevrolet</item>
+        <item>Chrysler</item>
+        <item>Citroen</item>
+        <item>Dodge</item>
+        <item>Ferrari</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>GMC</item>
+        <item>Honda</item>
+        <item>Hyundai</item>
+        <item>Infiniti</item>
+        <item>Jaguar</item>
+        <item>Jeep</item>
+        <item>Kia</item>
+        <item>Lamborghini</item>
+        <item>Land Rover</item>
+        <item>Lexus</item>
+        <item>Maserati</item>
+        <item>Mazda</item>
+        <item>Mclaren</item>
+        <item>Mercedes-Benz</item>
+        <item>Mini</item>
+        <item>Mitsubishi</item>
+        <item>Nissan</item>
+        <item>Peugeot</item>
+        <item>Porsche</item>
+        <item>Ram</item>
+        <item>Renault</item>
+        <item>Rolls Royce</item>
+        <item>Subaru</item>
+        <item>Suzuki</item>
+        <item>Tesla</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+        <item>Volvo</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+</resources>
