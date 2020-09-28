@@ -11,7 +11,7 @@ This Android application is designed to calculate and manage parking garages. So
   - Print number of cars active as well as inactive.
 
 ### Installation
-To use this project you can clone the project:
+Clone the project to to your local environment and open it with Android studio:
 ```
 https://github.com/Rensodiaz/ParkingManager.git
 ```
